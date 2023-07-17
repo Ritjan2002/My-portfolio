@@ -1,0 +1,44 @@
+.projects-container {
+
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+align-items: center;
+color: #FEFFFF;
+
+}
+.projects-text {
+    text-align: center;
+}
+.card-container {
+    display: flex;
+    justify-content: space-around;
+  
+
+   padding: 10px;
+
+}
+.card-body {
+    background-color: #2B7A78;
+    color: #FEFFFF;
+    
+}
+
+    .button3 {
+        color: #17252A;
+        font-weight: 500;
+        width: 8rem;
+    
+    }
+   
+    .button3:hover {
+        background-color: #17252A !important;
+        font-weight: 500;
+        width: 8rem;
+        
+    }
+    @media screen and (max-width: 768px) {
+        .card-container{
+            width: 80Vw;
+        }
+    }
