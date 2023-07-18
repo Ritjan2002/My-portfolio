@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import SkillBar from "react-skillbars";
-import "../styles/skills.css"
+import "../styles/skills.css";
 
 const Skills = () => {
   const skills = [
@@ -19,34 +19,30 @@ const Skills = () => {
     { type: "SQL Server", level: 60 },
     { type: "Java", level: 60 },
     { type: "jQuery", level: 70 },
-    
   ];
-
-  
 
   const colors = {
     bar: "black",
     title: {
-      text: "#FEFFFF", 
-      background: "#17252A"
-    }
+      text: "#FEFFFF",
+      background: "#17252A",
+    },
   };
   return (
     <div data-aos="flip-down">
       <Container fluid className="skills-container">
-        <Row >
-        <Col className='skills'><h1>Skills</h1></Col>
-      </Row>
-          <Row>
-        
-          <Col className="skills-list" >
-            <SkillBar skills={skills} height={'5vh'}  colors={colors}/>
+        <Row>
+          <Col className="skills">
+            <h1>Skills</h1>
           </Col>
-          
+        </Row>
+        <Row>
+          <Col className="skills-list">
+            <SkillBar skills={skills} height={"5vh"} colors={colors} />
+          </Col>
         </Row>
       </Container>
-      </div>
-   
+    </div>
   );
 };
 

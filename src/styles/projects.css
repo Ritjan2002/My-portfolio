@@ -1,44 +1,37 @@
 .projects-container {
-
-display: flex;
-justify-content: space-between;
-flex-direction: column;
-align-items: center;
-color: #FEFFFF;
-
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  color: #feffff;
 }
 .projects-text {
-    text-align: center;
+  text-align: center;
 }
 .card-container {
-    display: flex;
-    justify-content: space-around;
-  
+  display: flex;
+  justify-content: space-around;
 
-   padding: 10px;
-
+  padding: 10px;
 }
 .card-body {
-    background-color: #2B7A78;
-    color: #FEFFFF;
-    
+  background-color: #2b7a78;
+  color: #feffff;
 }
 
-    .button3 {
-        color: #17252A;
-        font-weight: 500;
-        width: 8rem;
-    
-    }
-   
-    .button3:hover {
-        background-color: #17252A !important;
-        font-weight: 500;
-        width: 8rem;
-        
-    }
-    @media screen and (max-width: 768px) {
-        .card-container{
-            width: 80Vw;
-        }
-    }
+.button3 {
+  color: #17252a;
+  font-weight: 500;
+  width: 8rem;
+}
+
+.button3:hover {
+  background-color: #17252a !important;
+  font-weight: 500;
+  width: 8rem;
+}
+@media screen and (max-width: 768px) {
+  .card-container {
+    width: 80vw;
+  }
+}

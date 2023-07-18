@@ -2,7 +2,7 @@
   display: flex;
 }
 .nav-container {
-  background-color: #17252A !important;
+  background-color: #17252a !important;
   display: flex;
   height: 100vh;
   flex-direction: column;
@@ -10,33 +10,24 @@
   top: 0;
   left: 0;
   justify-content: center;
-
 }
 .links {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   height: 80vh;
-  
 }
 
 .links > a {
   transform: rotate(270deg);
   text-decoration: none;
-  color: #FEFFFF;
-  
-
+  color: #feffff;
 }
 @media screen and (max-width: 768px) {
   .nav-container {
-
     display: flex;
     height: 100vh;
     flex-direction: column;
     justify-content: space-around;
-  
-  
   }
-
-  
 }

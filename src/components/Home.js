@@ -6,16 +6,15 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
 import CV from "../pdf/RitijanNurediniCV.pdf";
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer, toast } from "react-toastify";
 
-  import 'react-toastify/dist/ReactToastify.css';
+import "react-toastify/dist/ReactToastify.css";
 
 const Home = () => {
   const notify = () => toast("CV is Downloading");
   return (
     <div className="home-container">
       <Container fluid>
-       
         <Row>
           <Col
             className="text-container mb-5"
@@ -25,8 +24,6 @@ const Home = () => {
             lg={4}
             xl={4}
           >
-       
-            
             <h1>Hi,</h1>
             <h6>
               I'm <span>Ritjan</span>
@@ -39,12 +36,12 @@ const Home = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <button className="btn bg-light shadow" onClick={notify}>Download My CV</button>
+                <button className="btn bg-light shadow" onClick={notify}>
+                  Download My CV
+                </button>
                 <ToastContainer />
               </a>
             </div>
-
-   
           </Col>
 
           <Col
@@ -55,12 +52,10 @@ const Home = () => {
             lg={7}
             xl={7}
           >
-            
             <img src={img} width={"70%"} />
           </Col>
 
           <Col className="social-icon" xs={12} sm={12} md={1} lg={1} xl={1}>
-            
             <a href="https://www.linkedin.com/in/ritjannuredini/">
               <i class="fa-brands fa-linkedin-in"></i>
             </a>
